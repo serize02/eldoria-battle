@@ -15,6 +15,7 @@ class Warrior: public Character {
     int experience;
 
 public:
+    explicit Warrior(const string&);
     void gain_experience(int exp);
 };
 

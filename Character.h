@@ -15,6 +15,7 @@ protected:
     string name;
     int life_points, energy, damage, level;
 public:
+    Character (const string&);
     void attack(Character &enemy) const;
     void receive_damage(int damage);
     bool is_alive() const;

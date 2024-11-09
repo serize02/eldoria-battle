@@ -4,6 +4,10 @@
 
 #include "Character.h"
 
+Character::Character(const string& name)
+    :name(name), life_points(100), energy(100), damage(10), level(1){}
+
+
 void Character::attack(Character &enemy) const
 {
     enemy.receive_damage(this->damage);

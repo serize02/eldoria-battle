@@ -4,6 +4,9 @@
 
 #include "SpiritDrop.h"
 
+SpiritDrop::SpiritDrop(const int energy_restore_points_, const int life_restore_points_)
+    : energy_restore_points_(energy_restore_points_), life_restore_points_(life_restore_points_){}
+
 void SpiritDrop::use(Character& character)
 {
     character.restore_energy(this->energy_restore_points_);

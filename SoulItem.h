@@ -11,7 +11,6 @@
 using std::string;
 
 class SoulItem {
-    string name;
 public:
     virtual void use(Character& character) = 0;
 };

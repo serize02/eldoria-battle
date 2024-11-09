@@ -14,6 +14,7 @@ class Skill {
     string name;
     int damage, energy_cost;
 public:
+    Skill(string, int,int);
     void use(Character &attacker, Character &enemy) const;
 };
 

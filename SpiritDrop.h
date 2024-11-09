@@ -12,6 +12,7 @@ class SpiritDrop: public SoulItem {
     int life_restore_points_;
 
 public:
+    SpiritDrop(int,int);
     void use(Character &character) override;
 };
 
