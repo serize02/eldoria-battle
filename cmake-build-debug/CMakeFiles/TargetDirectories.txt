@@ -1,0 +1,3 @@
+C:/Users/eserize/CLionProjects/eldoria-game/cmake-build-debug/CMakeFiles/eldoria_game.dir
+C:/Users/eserize/CLionProjects/eldoria-game/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/eserize/CLionProjects/eldoria-game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
